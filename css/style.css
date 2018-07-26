@@ -1,0 +1,44 @@
+.header-description {
+	font-size: 1.0em;
+	margin-right: 1em;
+}
+.header {
+	width: 100%;
+	display: flex;
+	background: #373d3e;
+	color: lime;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	font-family: Consolas;
+}
+.header-description {
+	font-size: 1.0em;
+	margin-right: 1em;
+}
+.welcome-image {
+	display: block;
+	position: relative;
+	top: 50%;
+	left: 30%;
+}
+
+.instructions-wrapper {
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: .5em auto;
+	border: black 5px solid;
+	padding: 1.5em;
+}
+ .instructions-content {
+	 font-family: Consolas, sans-serif;
+ }
+ .janeway-image {
+	 display: flex;
+	 align-self: center;
+	 width: 15em;
+	 height: 12em;
+ }
