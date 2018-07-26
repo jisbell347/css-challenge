@@ -54,7 +54,7 @@ em {
  .about-me {
 	 background-color: #1015e1;
 	 display: block;
-	 position: absolute;;
+	 position: relative;
  }
  .about-me-wrapper {
 	 display: inline-block;
@@ -92,6 +92,27 @@ em {
 
  .about-me-text span {
 	 color: yellow;
+ }
+
+ .skillz {
+	 display: block;
+	 position: relative;
+	 width: 100%;
+	 height: 65vh;
+	 font-family: Consolas, sans-serif;
+ }
+
+ .skillz-header {
+	 font-weight: bold;
+	 float: right;
+ }
+ .skillz-table {
+	 background-color: black;
+	 color: lime;
+	 border: ghostwhite 1px solid;
+	 clear: both;
+	 text-align: left;
+	 padding: 5px;
  }
 
  .clearfix {

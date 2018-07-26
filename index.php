@@ -55,10 +55,10 @@
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
+			<section class="skillz">
 				<div class="container">
-					<h2>Summary of Profe$$ional Skillz</h2>
-					<table>
+					<h2 class="skillz-header">Summary of Profe$$ional Skillz</h2>
+					<table class="skillz-table">
 						<tr>
 							<th>Languages</th>
 							<th>Software</th>
