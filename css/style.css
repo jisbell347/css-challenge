@@ -40,38 +40,60 @@ em {
 }
  .instructions-content {
 	 font-family: Consolas, sans-serif;
+	 width: 50%;
  }
  .janeway-image {
 	 display: flex;
-	 align-self: center;
-	 width: 15em;
+	 align-self: auto;
+	 margin-left: 15%;
+	 margin-top: 1.5%;
+	 width: 18em;
 	 height: 12em;
  }
 
  .about-me {
 	 background-color: #1015e1;
+	 display: block;
+	 position: absolute;;
  }
  .about-me-wrapper {
-	 display: flex;
+	 display: inline-block;
+	 position: relative;
 	 height: auto;
-	 width: 75%;
+	 width: 100%;
  }
 
- .picard-image {;
-	 width: 15em;
-	 height: 15em;
+ .picard-image {
+	 display: inline-block;
+	 position: relative;
+	 float: left;
+	 width: 18em;
+	 height: 18em;
 	 border: white 1px solid;
-	 margin: .5em 2em;
+	 margin: 4em 1em 2.5em 5.8em;
  }
  .about-me-header {
-	 flex-direction: row;
-	 justify-content: flex-start;
-	 order: 1;
- }
- .about-me-text {
-	 justify-content: center;
-	 flex-direction: row;
-	 order: 2;
+	 display: inline-block;
+	 position: relative;
+	 float: left;
 	 color: white;
 	 font-family: Consolas, sans-serif;
+	 padding: 2.5em 1em 0 1em;
+ }
+ .about-me-text {
+	 display: inline-block;
+	 position: relative;
+	 float: left;
+	 color: white;
+	 font-family: Consolas, sans-serif;
+	 width: 70%;
+	 padding: 0 5em 2em 1em;
+ }
+
+ .about-me-text span {
+	 color: yellow;
+ }
+
+ .clearfix {
+	 clear: both;
  }
