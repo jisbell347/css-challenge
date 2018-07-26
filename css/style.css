@@ -1,6 +1,66 @@
-* {
+/*****************************************************
+* CSS Mockup Activity - Custom CSS Stylesheet
+* @author rlewis37
+*
+* Some rules have been included here to give you a head start.
+* Create your own custom CSS rules below. Have fun!
+******************************************************/
+html, body {
+	margin: 0;
 	box-sizing: border-box;
 }
+
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* create a responsive container */
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container { width: 970px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container { width: 750px; }
+}
+
+/*****************************************************
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+******************************************************/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
+******************************************************/
 .header {
 	width: 100%;
 	display: flex;
@@ -24,8 +84,10 @@ em {
 	display: block;
 	position: relative;
 	top: 50%;
-	left: 30%;
+	left: 22.5%;
 	margin: 3em 0;
+	width: 50%;
+	height: auto;
 }
 
 .instructions-wrapper {
@@ -46,15 +108,18 @@ em {
 	 display: flex;
 	 align-self: auto;
 	 margin-left: 15%;
-	 margin-top: 1.5%;
-	 width: 18em;
-	 height: 12em;
+	 margin-top: 1.4%;
+	 width: 34%;
+	 height: 8%;
+
  }
 
  .about-me {
 	 background-color: #1015e1;
 	 display: block;
 	 position: relative;
+	 height: 50vh;
+	 padding: 2em 1em;
  }
  .about-me-wrapper {
 	 display: inline-block;
@@ -67,10 +132,10 @@ em {
 	 display: inline-block;
 	 position: relative;
 	 float: left;
-	 width: 18em;
-	 height: 18em;
+	 width: 25%;
+	 height: 10%;
 	 border: white 1px solid;
-	 margin: 4em 1em 2.5em 5.8em;
+	 margin: 2em 2em 0 4em;
  }
  .about-me-header {
 	 display: inline-block;
@@ -78,7 +143,6 @@ em {
 	 float: left;
 	 color: white;
 	 font-family: Consolas, sans-serif;
-	 padding: 2.5em 1em 0 1em;
  }
  .about-me-text {
 	 display: inline-block;
@@ -86,8 +150,9 @@ em {
 	 float: left;
 	 color: white;
 	 font-family: Consolas, sans-serif;
-	 width: 70%;
-	 padding: 0 5em 2em 1em;
+	 width: 50%;
+	 font-size: .8em;
+	 padding: .5em;
  }
 
  .about-me-text span {
@@ -105,14 +170,22 @@ em {
  .skillz-header {
 	 font-weight: bold;
 	 float: right;
+	 width: 40%;
  }
- .skillz-table {
+ table {
 	 background-color: black;
 	 color: lime;
-	 border: ghostwhite 1px solid;
 	 clear: both;
 	 text-align: left;
-	 padding: 5px;
+	 table-layout: fixed;
+	 border-collapse: collapse;
+	 width: 90%;
+	 margin: 0 5%;
+ }
+ th, td {
+	 width: 30%;
+	 padding: 1em;
+	 border: ghostwhite 2px solid;
  }
 
  .clearfix {
