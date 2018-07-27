@@ -224,9 +224,6 @@ em {
 	 border-style: none;
  }
  footer {
-	 display: flex;
-	 justify-content: center;
-	 align-content: center;
 	 background-color: black;
 	 color: ghostwhite;
 	 height: 10vh;
