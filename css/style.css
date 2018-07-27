@@ -227,6 +227,8 @@ em {
 	 background-color: black;
 	 color: ghostwhite;
 	 height: 10vh;
+	 text-align: center;
+	 font-family: Consolas, sans-serif;
  }
 
  .clearfix {
