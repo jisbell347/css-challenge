@@ -63,19 +63,19 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 .header {
-	width: 100%;
 	display: flex;
+	width: 100%;
 	background: #373d3e;
 	color: lime;
-	justify-content: flex-start;
-	align-items: flex-end;
 	font-size: .9em;
 }
-.header>h1 {
-	font-size: 3em;
-	margin: .5em .8em .5em 2.5em;
+.header-name {
+	display: inline-flex;
+	justify-self: flex-start;
 }
 em {
+	display: inline-flex;
+	justify-self: center;
 	margin: 1.75em 0;
 }
 
