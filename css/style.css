@@ -8,6 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: Consolas, sans-serif;
 }
 
 .container {
@@ -70,7 +71,6 @@ body { width: 100%;}
 	flex-direction: row;
 	align-items: flex-end;
 	font-size: .9em;
-	font-family: Consolas, sans-serif;
 }
 .header>h1 {
 	font-size: 3em;
@@ -101,7 +101,6 @@ em {
 	padding: 1.5em;
 }
  .instructions-content {
-	 font-family: Consolas, sans-serif;
 	 width: 50%;
  }
  .janeway-image {
@@ -142,14 +141,12 @@ em {
 	 position: relative;
 	 float: left;
 	 color: white;
-	 font-family: Consolas, sans-serif;
  }
  .about-me-text {
 	 display: inline-block;
 	 position: relative;
 	 float: left;
 	 color: white;
-	 font-family: Consolas, sans-serif;
 	 width: 50%;
 	 font-size: .8em;
 	 padding: .5em;
@@ -164,7 +161,6 @@ em {
 	 position: relative;
 	 width: 100%;
 	 height: 55vh;
-	 font-family: Consolas, sans-serif;
  }
 
  .skillz-header {
@@ -199,7 +195,6 @@ em {
 	 background-color: forestgreen;
 	 height: 100%;
 	 color: lime;
-	 font-family: Consolas, sans-serif;
 	 width: 90%;
 	 margin: 0 5% 10% 5%;
  }
@@ -228,7 +223,6 @@ em {
 	 color: ghostwhite;
 	 height: 10vh;
 	 text-align: center;
-	 font-family: Consolas, sans-serif;
  }
 
  .clearfix {
