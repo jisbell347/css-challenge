@@ -68,7 +68,6 @@ body { width: 100%;}
 	background: #373d3e;
 	color: lime;
 	justify-content: flex-start;
-	flex-direction: row;
 	align-items: flex-end;
 	font-size: .9em;
 }
@@ -91,7 +90,7 @@ em {
 }
 
 .instructions-wrapper {
-	width: 75%;
+	width: 85%;
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -177,6 +176,15 @@ em {
 	 border-collapse: collapse;
 	 width: 90%;
 	 margin: 0 5%;
+ }
+ table th:nth-child(1) {
+	 width: 20%
+ }
+ table th:nth-child(2) {
+	 width: 25%;
+ }
+ table th:nth-child(3) {
+	 width: 35%;
  }
  th, td {
 	 width: 30%;

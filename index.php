@@ -13,8 +13,8 @@
 		<div class="sfooter-content">
 
 			<!-- HEADER -->
-			<header>
-				<div class="container header">
+			<header class="header">
+				<div class="container">
 					<h1 class="header-name">Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
@@ -45,7 +45,7 @@
 
 			<!-- ABOUT ME -->
 			<section class="about-me">
-				<div class="container about-me-wrapper">
+				<div class="container">
 					<img src="images/stunning.jpg" alt="captain picard" class="picard-image"/>
 					<h2 class="about-me-header">A Day in the Life...</h2>
 					<p class="about-me-text">Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
