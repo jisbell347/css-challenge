@@ -184,3 +184,10 @@ button {
 	border: none;
 }
 
+form div:nth-child(4) {
+	margin-bottom: 15px;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
+}
